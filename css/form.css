@@ -1,0 +1,144 @@
+
+* {
+	font-family: 'Arsenal', sans-serif;
+}
+body {
+	font-family: 'Arsenal', sans-serif;
+	font-size: 1.2em;
+	margin: 0;
+	line-height: 1.42;
+}
+/*.nav {
+	margin: 1.5em 0 0 0;
+}*/
+.content {
+	min-height: 100vh;
+	min-width: 100vh;	
+	background-image: url('../images/bg3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0%;	
+}
+/*.navbar-default {
+    border: none !important;
+    background: none !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !imporstant;
+
+}
+div#bs-example-navbar-collapse-1 {
+    float: right;
+    margin: 1.5em 0em 0em;
+    border: none;
+}
+.nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+.nav ul li:first child {
+	margin: 0;
+}
+.nav ul li {
+	margin: 0 0.5em;
+	display: inline-block;
+	float: none;
+}*/
+/*.navbar {
+	margin-bottom: 0% !important;
+	padding-right: 2%;
+}*/
+.top-nav ul li {
+    margin: 0 0.5em;
+    margin-top: 1%;
+}
+.top-nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    
+
+}
+
+
+.nav ul li a:hover, .nav ul li a.active {
+    color: #fff !important;
+    background-color: #5b778c;
+    font-size: 1.5em;
+  
+}
+.nav ul li a:hover, .nav ul li a.scroll{
+
+	color: #3f51b5;
+}
+.nav ul li a {
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #333;
+}
+.logo {
+	letter-spacing: 0.4em;
+	color: #3f51b5;
+	font-size: 3em;
+}
+/*.content {
+	margin: 10%;
+	text-align: center;
+	font-size: 1.5em;
+	color: #444;
+}
+.content h1 {
+	font-size: 2em;
+	letter-spacing: 0.5em;
+}*/
+.all {
+	background-image: url('../images/images (1).jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	min-width: 100vh;
+}
+.body {
+	margin-top: 5%;
+	margin-left: 4%;
+	font-size: 1.2em;
+}
+.form-group {
+	margin-left: 3%;
+}
+.body h1 {
+	text-align: center;
+}
+form {
+	margin-right: 40%;
+}
+
+.foot {
+	background-color: #5b778c;
+	margin-left: 0;
+	margin-right: 0px;
+	margin-top: 10%;
+	color: #fff;
+	padding-top: 5%;
+}
+.foot ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+} 
+.foot li {
+	margin-top: 1.6%;
+	list-style-type: none;
+	padding: 1.4%;
+	margin-left: 0%;
+}
+.foot a:hover {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.last {
+	background-color: transparent; 
+	padding-top: 1%;
+	text-align: center;
+	padding-bottom: 1%;
+}
