@@ -45,7 +45,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a class="scroll" href="index.html">HOME</a></li>
                <li><a class="active" href="Rhospital.html" target="_Rhospital.html">REGISTER AS A HOSPITAL</a></li>
-              <li><a class="scroll" href="RPatient.html" target="_Rpatient.html">REGISTER AS A PATIENT</a></li>
+              <li><a class="scroll" href="Rpatient.html" target="_Rpatient.html">REGISTER AS A PATIENT</a></li>
               <li><a class="scroll" href="Lpatient.html" target="_Lpatient.html">LOG-IN AS A PATIENT</a></li>
               <li><a class="scroll" href="Lhospital.html" target="_Lhospital.html">LOG-IN AS A HOSPITAL</a></li>
               <li><a class="scroll" href="contactus.html" target="_contactus.html">CONTACT US</a></li>
@@ -66,28 +66,34 @@
     <h1>MEDI-TECH HOSPITAL PORTAL</h1>
 
     <form>
-      <h3>REGISTER</h3>
+      <h3><b>REGISTER</b></h3><br>
         <div class="form-group">
          <label for="exampleInputEmail1">Hospital Name</label>
          <input type="text" class="form-control" id="exampleInputfirstname" placeholder="First Name">
         </div>
         <div class="form-group">
          <label for="exampleInputEmail1">Office Tel Number</label>
-         <input type="text" class="form-control" id="exampleInputfirstname" placeholder="+234-0000-0000">
+         <input type="text" class="form-control" id="exampleInputfirstname" placeholder="+234-0000-0000" maxlength="11">
         </div>
        <div class="form-group">
-         <label for="exampleInputEmail1">Loctation address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
+         <label for="exampleInputEmail1">Loctation address</label><br>
+          <textarea name="description" required=""></textarea>
        </div>
        <div class="form-group">
          <label for="exampleInputPassword1">Password</label>
          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
+        <div class="form-group">
+         <label for="exampleInputPassword1">Confirm Password</label>
+         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
         
-       <div class="checkbox">
-          <label>
-           <input type="chec"> Check me out
-          </label>
+       <div class="form-group">
+
+          <label>Type Of Hospital</label><br>
+          <input type="checkbox"> General Hospital <br><br>
+          <input type="checkbox"> Private Hospital <br><br>
+          <input type="checkbox"> Specialized Hospital <br><br>
         </div>
        <button type="submit" class="btn btn-default">Submit</button>
     </form>
