@@ -12,7 +12,7 @@ body {
 	margin: 1.5em 0 0 0;
 }*/
 .content {
-	min-height: 100vh;
+	min-height: 500vh;
 	min-width: 100vh;	
 	background-image: url('../images/bg3.jpg');
 	background-repeat: no-repeat;
@@ -52,24 +52,20 @@ div#bs-example-navbar-collapse-1 {
 }*/
 .top-nav ul li {
     margin: 0 0.5em;
+    margin-top: 1%;
 }
 .top-nav ul li {
     display: inline-block;
-    margin: 0 0.5em;
-    float: none;
-    margin-top: 0%;
+    margin: 0 1em;
 }
 
 
 .nav ul li a:hover, .nav ul li a.active {
     color: #fff !important;
-    background-color:  #5b778c;
-    margin-top: 0%;
-     padding: 10px 20px 10px 20px;
+    background-color:  #5b778c; 
     font-size: 1.5em;
 }
 .nav ul li a:hover, .nav ul li a.scroll{
-	scroll-behavior: auto;
 	color: #3f51b5;
 }
 .nav ul li a {
@@ -195,8 +191,8 @@ div#bs-example-navbar-collapse-1 {
 .img {
 	background-image: url('../images/unnamed (2).jpg');
 	background-size: cover;
-	min-height: 90vh;
-	min-width: 80vh;	
+	min-height: 80vh;
+	min-width: 100vh;	
 	background-repeat: no-repeat;
 	margin-top: 0%;	
 	padding-top: 10%;
