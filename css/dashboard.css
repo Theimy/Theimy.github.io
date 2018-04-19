@@ -1,0 +1,127 @@
+
+* {
+	font-family: 'Arsenal', sans-serif;
+}
+body {
+	font-family: 'Arsenal', sans-serif;
+	font-size: 1.2em;
+	margin-right: 0%;
+	line-height: 1.42;
+}
+
+.top-nav ul li {
+    margin: 0 0.5em;
+    margin-top: 1%;
+}
+.top-nav ul li {
+    display: inline-block;
+    margin: 0 7em;
+
+}
+.nav ul li a {
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #333;
+	word-spacing: 2em,
+}
+.container {
+	margin-top: 10%;
+}
+
+.container-right {
+	background-color: #5b778c;
+	width: 20%;
+	float: left;
+	height: 100%;
+	z-index: 9999;
+	-webkit-box-sizing: border-box;
+}
+.passport {
+    padding: 10px;
+    min-height: 100px;
+    text-align: center;
+    color: #5b778c;
+    background: #fff;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.passport span {
+  border-radius: 50%;
+}
+.menu-vertical {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.menu-vertical li a {
+    width: auto;
+    padding: 1.0em 1.0em 1.0em 3.0em;
+    display: block;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #FFF;
+     position: relative;
+    top: 0px;
+    left: 0px;
+}
+.menu-vertical li a:hover {
+	 background: #fff;
+	 color: #5b778c;
+}
+.bar {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background: #F6F6F6
+}
+.clear {
+	clear: both;
+}
+.float-left {
+	float: left;
+}
+.float-left a {
+	text-decoration-line: none;
+}
+
+.float-right {
+    float: right;
+    margin: 0px 7px 0px 0px;
+}
+.container-left {
+	margin-left: 20%;
+}
+
+
+.foot {
+	background-color: #5b778c;
+	margin-left: 0;
+	margin-right: 0%;
+	margin-top: 10%;
+	color: #fff;
+	padding-top: 5%;
+}
+.foot ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+} 
+.foot li {
+	margin-top: 1.6%;
+	list-style-type: none;
+	padding: 1.4%;
+	margin-left: 0%;
+}
+.foot a:hover {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.last {
+	background-color: transparent; 
+	padding-top: 1%;
+	text-align: center;
+	padding-bottom: 1%;
+}
